@@ -43,7 +43,6 @@
 .lastPhoto {
   border-radius: 30%;
   padding: 150px;
-  transform: rotate(90deg);
   height: 400px;
 }
 
