@@ -1,38 +1,65 @@
 .App {
   text-align: center;
+  background: linear-gradient(to right, rgb(42, 229, 255), rgb(79, 170, 163));
+
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+.mainPh {
+  border-radius: 30%;
+  padding: 25px 20px 20px 20px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainPh2 {
+  border-radius: 30%;
+  padding: 25px 20px 20px 20px;
+  transform: rotate(90deg);
+  height: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.p1 {
+  color: red;
+  font-size: 30px;
+  padding: 0px 0px 50px 20px;
+  font-weight: bold;
+  font-family: Courier New;
 }
 
-.App-link {
-  color: #61dafb;
+.p2 {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Courier New;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secondContainer {
+  padding: 150px 20px 20px 20px;
 }
+
+.lastPhoto {
+  border-radius: 30%;
+  padding: 150px;
+  transform: rotate(90deg);
+  height: 400px;
+}
+
+.togetherPhoto {
+  border-radius: 30%;
+  padding: 150px;
+  transform: rotate(90deg);
+  height: 400px;
+}
+
+
+.greeting {
+  padding: 100px 0px 0px 0px;
+}
+
+.grow { transition: all 0.5s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
